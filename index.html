@@ -4,35 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive-Portfolio</title>
+    <title>Responsive Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body {
+            color: #777777;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://images.freeimages.com/images/small-previews/8ef/canvas-1-1186635.jpg);
+        }
+
+        .my-nav {
+          background: #ffffff;
+          overflow: auto;
+          border-bottom-style: solid;
+          border-color: #cccccc;
+          margin-top: -10px;
+          padding-right: 20px;
+          padding: 0;
+        }
+
+        .my-span {
+          background: #4aaaa5;
+          color: white;
+          padding: 22px;
+          position: relative;
+          left: 195px;
+          font-size: 2em;
+          font-weight: bold;
+        }
+
+        .my-container {
+            background: #ffffff;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 80px;
+
+        }
+
+        .h1 {
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: #4aaaa5
+          
+          
+         }
+
+         .row-1 {
+           border-bottom-style: solid;
+           border-color: #dddddd;
+          
+         }
+
+         .footer {
+            background: #666666
+         }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span>Jason Meli</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my-nav">
+        <span class="my-span">Jason Meli</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-           
-          </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-   
+    <div class="container my-container">
+        <div class="row row-1">
+            <div class="col-md-10">
+                <h1 class="h1">About Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="https://place-hold.it/150x150" alt="place-hold">
+                <div class="row"></div>
+                <div class="col-md-12"> sn</div>
+           </div>
+           <div class="col-sm-10">
+               <p>My name is Jason Meli. I am currently a student in the Coding Bootcamp program at the University of
+                Richmond. I decided to enroll in the program to make a career change to give myself and my five-year-old
+                daughtar a better life. If you've ever done landscaping before, you will understand why I've decided to
+                make a career change</p>
+                <p>A few facts about me. I was born in Buffalo, New York. That makes me a Bills fan. I also enjoy soccer. I
+                    like to fish, though I don't do it as much as I'd like. I also enjoy reading, though I don't do it as
+                    much as I should. I am also a mediocre guitar player.</p>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12">
+               <p>So I need some more filler in here to beef up this paragraph so I can make it go underneath the image. So here's some random facts about me. I haven't had a speeding ticket in 20 years. My favorite band is Led Zeppelin. I was born on the 17th at 7:30, weighing 7 lbs. 7 ozs. My favorite color is blue. And we all know that Ms. Lippy's car is green and Billy likes to drink soda. Bonus points if you get that reference.</p>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12">
+               <footer class="footer"></footer>
+           </div>
+       </div>
+
+    </div>  
+       <footer>
+           <div class="row">
+               <div class="col-sm-12 footer">footer </div>
+           </div>
+       </footer>
+
+  
+
 </body>
-
 
 </html>
