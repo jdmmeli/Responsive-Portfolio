@@ -9,3 +9,7 @@ body {
 footer {
     background: #666666
 }
+
+.my-row {
+    height: 120px;
+}
