@@ -1,1 +1,3 @@
 # Responsive-Portfolio
+
+This is my responsive porrfolio. It is far from perfect, but I do believe that it shows responsiveness. One thing that I do need to change on it is to make the contact page have input boxes. I just used text and borders to make the appearance look like the picture of the contact page in the first homework assignment. There's quite a bit more to do to really make it look good, but overall I think I'm starting to get a little bit of a grasp on using Bootstrap.
